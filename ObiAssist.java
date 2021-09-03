@@ -101,6 +101,7 @@ public final class ObiAssist extends Module {
 
                 if (targetPos != null) {
                     BlockUtil.placeBlock(targetPos);
+                    delayTimer.reset();
                 }
                 if (packet.getValue()) {
                     if (slot != -1) {
